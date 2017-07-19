@@ -1,0 +1,220 @@
+ID;COMMAND;DESCRIPTION;COMMAND_LITERAL;OS
+1;Ctrl+Alt+N;Create new project, file, class, etc.;Ctrl Alt N;windows,linux
+2;Alt+F, then .;Open project, file, etc.;Alt F, then dot;windows,linux
+3;Ctrl+Shift+R;Open Resource (file, folder or project);Ctrl Shift R;windows,linux
+4;Alt+Enter;Show and access file properties;Alt Enter;windows,linux
+5;Ctrl+S;Save current file;Ctrl S;windows,linux
+6;Ctrl+Shift+S;Save all files;Ctrl Shift S;windows,linux
+7;Ctrl+W;Close current file;Ctrl W;windows,linux
+8;Ctrl+Shift+W;Close all files;Ctrl Shift W;windows,linux
+9;F5;Refresh content of selected element with local file system;F5;windows,linux
+10;F12;Jump to Editor Window;F12;windows,linux
+11;Ctrl+Page Dow;Switch to next editor;Ctrl Page Down;windows,linux
+12;Ctrl+Page Up;switch to previous editor;Ctrl Page Up;windows,linux
+13;Ctrl+M;Maximize or un-maximize current Editor Window;Ctrl M;windows,linux
+14;Ctrl+E;Show list of open Editors.;Ctrl E;windows,linux
+15;Ctrl+F6 / Ctrl+Shift+F6;Show list of open Editors.;Ctrl F6 or Ctrl Shift F6;windows,linux
+16;Alt+Arrow Right;go to next Editor Window;Alt Arrow Right;windows,linux
+17;Alt+Arrow Left;Go to previous Editor Window;Alt Arrow Left;windows,linux
+18;Alt+-;Open Editor Window Option menu;Alt minus;windows,linux
+19;Ctrl+F10;Show view menu;Ctrl F10;windows,linux
+20;Ctrl+F10, then n;Show or hide line numbers;Ctrl F10, then n;windows,linux
+21;Ctrl+Shift+Q;Show or hide the diff column on the left;Ctrl Shift Q;windows,linux
+22;Ctrl+Shift++;Zoom text in;Ctrl Shift  plus;windows,linux
+23;Ctrl+Shift+-;Zoom text  out;Ctrl Shift  minus;windows,linux
+24;Home;Jump to beginning. Press home twice to jump to beginning of line;Home;windows,linux
+25;End;Jump to end of indention.;End;windows,linux
+26;Ctrl+Home/End;Jump to beginning / jump to end of source;Ctrl Home/End;windows,linux
+27;Ctrl+Arrow Right/Arrow Left;Jump one word to the left / one word to the right;Ctrl Arrow Right/Arrow Left;windows,linux
+28;Ctrl+Shift+Arrow Down/Arrow Up;Jump to previous / jump to next method;Ctrl Shift Arrow Down/Arrow Up;windows,linux
+29;Ctrl+L;Jump to Line Number. To hide/show line numbers, press ctrl+F10 and select 'Show Line Numbers';Ctrl L;windows,linux
+30;Ctrl+Q;Jump to last location edited;Ctrl Q;windows,linux
+31;Ctrl+./Ctrl+,;Jump to next / jump to previous compiler syntax warning or error;Ctrl dot/Ctrl ,;windows,linux
+32;Ctrl+Shift+P;With a bracket selected: jump to the matching closing or opening bracket;Ctrl Shift P;windows,linux
+33;Ctrl+[+]/Ctrl+- on numeric keyboard;Collapse / Expand current method or class;Ctrl [ ]/Ctrl - on numeric keyboard;windows,linux
+34;Ctrl+[/]/Ctrl+* on numeric keyboard;Collapse / Expand all methods or classes;Ctrl [/]/Ctrl * on numeric keyboard;windows,linux
+35;Ctrl+Arrow Down/Ctrl+Arrow Up;Scroll Editor without changing cursor position;Ctrl Arrow Down/Ctrl Arrow Up;windows,linux
+36;Alt+Page Up/Alt+Page Down;Next Sub-Tab / Previous Sub-Tab;Alt Page Up/Alt Page Down;windows,linux
+37;Shift+Arrow Right/Arrow Left;Expand selection by one character to the left / to the right;Shift Arrow Right/Arrow Left;windows,linux
+38;Ctrl+Shift+Arrow Right/Arrow Left;Expand selection to next / previous word;Ctrl Shift Arrow Right/Arrow Left;windows,linux
+39;Shift+Arrow Down/Arrow Up;Expand selection by one line down / one line up;Shift Arrow Down/Arrow Up;windows,linux
+40;Shift+End/Home;Expand selection to end / to beginning of line;Shift End/Home;windows,linux
+41;Ctrl+A;Select all;Ctrl A;windows,linux
+42;Alt+Shift+Arrow Up;Expand selection to current element (e.g. current one-line expression or content within brackets);Alt Shift Arrow Up;windows,linux
+43;Alt+Shift+Arrow Left/Arrow Right;Expand selection to next / previous element;Alt Shift Arrow Left/Arrow Right;windows,linux
+44;Alt+Shift+Arrow Down;Reduce previously expanded selection by one step;Alt Shift Arrow Down;windows,linux
+45;Ctrl+C;Copy;Ctrl C;windows,linux
+46;Ctrl+X;Cut;Ctrl X;windows,linux
+47;Ctrl+V;Paste;Ctrl V;windows,linux
+48;Ctrl+Z;Undo last action;Ctrl Z;windows,linux
+49;Ctrl+Y;Redo last (undone) action;Ctrl Y;windows,linux
+50;Ctrl+D;Delete Line;Ctrl D;windows,linux
+51;Alt+Arrow Up/Arrow Down;Move current line or selection up or down;Alt Arrow Up/Arrow Down;windows,linux
+52;Ctrl+Alt+Arrow Up/Ctrl+Alt+Arrow Down/;Duplicate current line or selection up or down;Ctrl Alt Arrow Up/Ctrl Alt Arrow Down/;windows,linux
+53;Ctrl+Delete;Delete next word;Ctrl Delete;windows,linux
+54;Ctrl+Backspace;Delete previous word;Ctrl Backspace;windows,linux
+55;Shift+Enter;Enter line below current line;Shift Enter;windows,linux
+56;Shift+Ctrl+Enter;Enter line above current line;Shift Ctrl Enter;windows,linux
+57;Insert;Switch between insert and overwrite mode;Insert;windows,linux
+58;Shift+Ctrl+Y;Change selection to all lower case;Shift Ctrl Y;windows,linux
+59;Shift+Ctrl+X;Change selection to all upper case;Shift Ctrl X;windows,linux
+60;Ctrl+F;Open find and replace dialog;Ctrl F;windows,linux
+61;Ctrl+K/Ctrl+Shift+K;Find previous / find next occurrence of search term (close find window first);Ctrl K/Ctrl Shift K;windows,linux
+62;Ctrl+H;Search Workspace (Java Search, Task Search, and File Search);Ctrl H;windows,linux
+63;Ctrl+J/Ctrl+Shift+J;Incremental search forward / backwards. Type search term after pressing ctrl+j, there is now search window;Ctrl J/Ctrl Shift J;windows,linux
+64;Ctrl+Shift+O;Open a resource search dialog to find any class;Ctrl Shift O;windows,linux
+65;Tab/Shift+Tab;Increase / decrease indent of selected text;Tab/Shift Tab;windows,linux
+66;Ctrl+I;Correct indention of selected text or of current line;Ctrl I;windows,linux
+67;Ctrl+Shift+F;Autoformat all code in Editor using code formatter;Ctrl Shift F;windows,linux
+68;Ctrl+/;Comment / uncomment line or selection ( adds '//' );Ctrl /;windows,linux
+69;Ctrl+Shift+/;Add Block Comment around selection ( adds '/... */' );Ctrl Shift /;windows,linux
+70;Ctrl+Shift+\;Remove Block Comment;Ctrl Shift \;windows,linux
+71;Alt+Shift+J;Add Element Comment ( adds '/** ... */');Alt Shift J;windows,linux
+72;Ctrl+Space;Opens Content Assist (e.g. show available methods or field names);Ctrl Space;windows,linux
+73;Ctrl+1;Open Quick Fix and Quick Assist;Ctrl 1;windows,linux
+74;Alt+/;Propose word completion (after typing at least one letter). Repeatedly press alt+/ until reaching correct name;Alt /;windows,linux
+75;Ctrl+Shift+Insert;Deactivate or activate Smart Insert Mode (automatic indention, automatic brackets, etc.);Ctrl Shift Insert;windows,linux
+76;Ctrl+O;Show code outline / structure;Ctrl O;windows,linux
+77;F2;Open class, method, or variable information (tooltip text);F2;windows,linux
+78;F3;Open Declaration: Jump to Declaration of selected class, method, or parameter;F3;windows,linux
+79;F4;Open Type Hierarchy window for selected item;F4;windows,linux
+80;Ctrl+T;Show / open Quick Type Hierarchy for selected item;Ctrl T;windows,linux
+81;Ctrl+Shift+T;Open Type in Hierarchy;Ctrl Shift T;windows,linux
+82;Ctrl+Alt+H;Open Call Hierarchy;Ctrl Alt H;windows,linux
+83;Ctrl+Shift+U;Find occurrences of expression in current file;Ctrl Shift U;windows,linux
+84;Ctrl+move over method;Open Declaration or Implementation;Ctrl move over method;windows,linux
+85;Alt+Shift+R;Rename selected element and all references;Alt Shift R;windows,linux
+86;Alt+Shift+V;Move selected element to other class or file (With complete method or class selected);Alt Shift V;windows,linux
+87;Alt+Shift+C;Change method signature (with method name selected);Alt Shift C;windows,linux
+88;Alt+Shift+M;Extract selection to method;Alt Shift M;windows,linux
+89;Alt+Shift+L;Extract local variable: Create and assigns a variable from a selected expression;Alt Shift L;windows,linux
+90;Alt+Shift+I;Inline selected local variables, methods, or constants if possible (replaces variable with its declarations/ assignment and puts it directly into the statements);Alt Shift I;windows,linux
+91;Ctrl+F11;Save and launch application (run);Ctrl F11;windows,linux
+92;F11;Debug;F11;windows,linux
+93;F5;Step Into function;F5;windows,linux
+94;F6;Next step (line by line);F6;windows,linux
+95;F7;Step out;F7;windows,linux
+96;F8;Skip to next Breakpoint;F8;windows,linux
+97;Ctrl+F7/Ctrl+Shift+F7;Switch forward / backward between views (panels). Useful for switching back and forth between Package Explorer and Editor.;Ctrl F7/Ctrl Shift F7;windows,linux
+98;Ctrl+F8/Ctrl+Shift+F8;Switch forward / backward between perspectives;Ctrl F8/Ctrl Shift F8;windows,linux
+99;Ctrl+P;Print;Ctrl P;windows,linux
+100;F1;Open Eclipse Help;F1;windows,linux
+101;Shift+F10;Show Context Menu right click with mouse;Shift F10;windows,linux
+102;Ctrl+Alt+S;Synchronize with Repository;Ctrl Alt S;windows,linux
+103;Ctrl+Alt+C;Commit;Ctrl Alt C;windows,linux
+104;Ctrl+Alt+U;Update;Ctrl Alt U;windows,linux
+105;Ctrl+Alt+D;Update to Revision;Ctrl Alt D;windows,linux
+106;Ctrl+Alt+E;Merge;Ctrl Alt E;windows,linux
+107;Ctrl+Alt+T;Show Properties;Ctrl Alt T;windows,linux
+108;Ctrl+Alt+I;Add to svn:ignore;Ctrl Alt I;windows,linux
+109;Ctrl+Shift+Left Arrow;Select Previous Element;Ctrl+Shift+Left Arrow;mac
+110;Ctrl+Shift+Right Arrow;Select Next Element;Ctrl+Shift+Right Arrow;mac
+111;Shift+Option+Left Arrow;Select Previous Word;Shift+Option+Left Arrow;mac
+112;Shift+Option+Right Arrow;Select Next Word;Shift+Option+Right Arrow;mac
+113;Command+Option+A;Toggle Block Selection;Command+Option+A;mac
+114;Command+Shift+Left Arrow;Select Line to Start;Command+Shift+Left Arrow;mac
+115;Command+Shift+Right Arrow;Select Line to End;Command+Shift+Right Arrow;mac
+116;Command+D;Delete Line;Command+D;mac
+117;Command+Shift+X;Uppercase;Command+Shift+X;mac
+118;Command+Shift+Y;Lowercase;Command+Shift+Y;mac
+119;Shift+Enter;Insert Line Below current line;Shift+Enter;mac
+120;Command+Shift+Enter;Insert Line Above current line;Command+Shift+Enter;mac
+121;Command+Shift+Del;Delete to End of Line;Command+Shift+Del;mac
+122;Command+Option+Up Arrow;Copy line above Current line;Command+Option+Up Arrow;mac
+123;Command+Option+Down Arrow;Copy line below Current line;Command+Option+Down Arrow;mac
+124;Option+Del;Delete Next Word;Option+Del;mac
+125;Option+Bkspace;Delete Previous Word;Option+Bkspace;mac
+126;Option+Up Arrow;Move line Up;Option+Up Arrow;mac
+127;Option+Down Arrow;Move line Down;Option+Down Arrow;mac
+128;Ctrl+.;Complete the Word;Ctrl+ dot;mac
+129;Command+Shift+O;Organize Imports;Command+Shift+O;mac
+130;Command+/;Toggle Comment;Command+/;mac
+131;Command+Left Arrow;Start line;Command+Left Arrow;mac
+132;Command+Right Arrow;End Line;Command+Right Arrow;mac
+133;Command+C/Command+X/Command+V;Copy /Cut/Paste Text;Command+C/Command+X/Command+V;mac
+134;Command+E;Oprn Editor;Command+E;mac
+135;Command+Ctrl+/;Add Block Element;Command+Ctrl+/;mac
+136;Command+Ctrl+\;Remove Block Element;Command+Ctrl+\;mac
+137;Command+Shift+F;Format;Command+Shift+F;mac
+138;Command+Shift+M;Add Import;Command+Shift+M;mac
+139;Command+Option+J;Add Javadoc Comment;Command+Option+J;mac
+140;Command+Option+O;Toggle Mark Ocurences;Command+Option+O;mac
+141;Command+Option+U;Remove Occurences Annotations;Command+Option+U;mac
+142;Command+Option+Z;Surround With Quick Menu;Command+Option+Z;mac
+143;Command+2F;Assign to Field;Command+2F;mac
+144;Command+2L;Assign to Local Variable;Command+2L;mac
+145;Command+2R;Rename in File;Command+2R;mac
+146;Command+L;Go to Line;Command+L;mac
+147;Command+O;Quick Outline;Command+O;mac
+148;Command+F8;Switching;Command+F8;mac
+149;F3;Move Cursor to Declaration;F3;mac
+150;Command+,;Go to Previous Problem;Command+,;mac
+151;Command+Shift+P;With a bracket selected: jump to the matching closing or opening bracket;Command+Shift+P;mac
+152;Command+Option+I;Inline;Command+Option+I;mac
+153;Command+Option+M;Extract Method;Command+Option+M;mac
+154;Command+Option+C;Charge Method Signature;Command+Option+C;mac
+155;Command+Option+L;Extract Local Variable;Command+Option+L;mac
+156;Command+Option+R;Rename Refactor;Command+Option+R;mac
+157;Command+Option+T;Show Refactor Quick Menu;Command+Option+T;mac
+158;Command+Option+V;Move Refactor;Command+Option+V;mac
+159;Command+Shift+K;Find Previous;Command+Shift+K;mac
+160;Command+Shift+G;Search Refrences in workspace;Command+Shift+G;mac
+161;Command+Shift+U;Show Occureences in File Quick Menu;Command+Shift+U;mac
+162;Command+F;Find anf Replace;Command+F;mac
+163;Command+Option+G;Find Text in WorkSpace;Command+Option+G;mac
+164;Ctrl+H;Open Search Dialog;Ctrl+H;mac
+165;Command+Ctrl+Option+DA;Debug Java Applet;Command+Ctrl+Option+DA;mac
+166;Command+Ctrl+Option+DE;Debug Eclipse Application;Command+Ctrl+Option+DE;mac
+167;Command+Ctrl+Option+DJ;Debug Java Application;Command+Ctrl+Option+DJ;mac
+168;Command+Ctrl+Option+DO;Debug OSGI Framework;Command+Ctrl+Option+DO;mac
+169;Command+Ctrl+Option+DP;Debug Junit Plug-in Test;Command+Ctrl+Option+DP;mac
+170;Command+Ctrl+Option+DQ;Debug Ant Build;Command+Ctrl+Option+DQ;mac
+171;Command+Ctrl+Option+DT;Debug Junit Test;Command+Ctrl+Option+DT;mac
+172;Command+R;Run to Line;Command+R;mac
+173;Shift+Option+DR;Debug on Server;Shift+Option+DR;mac
+174;Command+Option+XA;Run Java Applet;Command+Option+XA;mac
+175;Command+Option+XE;Run Eclipse Application;Command+Option+XE;mac
+176;Command+Option+XJ;Run Java Application;Command+Option+XJ;mac
+177;Command+Option+XO;Run OSGI Framework;Command+Option+XO;mac
+178;Command+Option+XP;Run Junit Plug-in Test;Command+Option+XP;mac
+179;Command+Option+XQ;Run Ant Build;Command+Option+XQ;mac
+180;Command+Option+XT;Run Junit Test;Command+Option+XT;mac
+181;Shift+Option+XR;Run on Server;Shift+Option+XR;mac
+182;Command+.;Next Window;Command+ dot;mac
+183;Command+1;Quick Fix;Command+1;mac
+184;Command+;Backward History;Command+;mac
+185;Command+Q;Last Edit Location;Command+Q;mac
+186;Ctrl+D;End of File;Ctrl+D;mac
+187;Command+G;Declaration in Workspace;Command+G;mac
+188;Option+N;New local task;Option+N;mac
+189;Command+=;Zoom in;Command+=;mac
+190;Command+Shift+R;Open Resource;Command+Shift+R;mac
+191;Command+Shift+D;Display;Command+Shift+D;mac
+192;Command+Shift+Option+M;Open Menifest;Command+Shift+Option+M;mac
+193;Command+Shift+I;Inspect;Command+Shift+I;mac
+194;Command+Shift+M;Maximize Part of Task;Command+Shift+M;mac
+195;Command+Shift+>;Previous Window;Command+Shift+>;mac
+196;Command+Option+S;Display Source Quick Menu;Command+Option+S;mac
+197;Command+Option+F;Force Return;Command+Option+F;mac
+198;Command+Option+R;Show in….;Command+Option+R;mac
+199;Ctrl+Shift+Q;Quick Different Toggle;Ctrl+Shift+Q;mac
+200;Ctrl+Shift+Spacebar;Context information;Ctrl+Shift+Spacebar;mac
+201;Ctrl+Spacebar;Content assist;Ctrl+Spacebar;mac
+202;Ctrl+Option+H;Open Call Hierarchy;Ctrl+Option+H;mac
+203;Shift+Option+G;Generate Code;Shift+Option+G;mac
+204;Shift+Option+S;Submit Task;Shift+Option+S;mac
+205;Command+3;Focus to Quick Access;Command+3;mac
+206;Command+F11;Run the Current Upload Java Classs;Command+F11;mac
+207;F4;Show Type Hierarchy of Current java class;F4;mac
+208;Command+M;Maximize Java editor;Command+M;mac
+209;Command+Shift+P;Move Cursor to Matching Bracket;Command+Shift+P;mac
+210;Shift+Option+C;Mark Task complete;Shift+Option+C;mac
+211;Shift+Option+I;Mark Task Incomplete;Shift+Option+I;mac
+212;Shift+Option+R;Mark as Read;Shift+Option+R;mac
+213;Shift+Option+U;Mark as Unread;Shift+Option+U;mac
+214;Shift+Option+Up Arrow;Mark as Read and Move to Previous;Shift+Option+Up Arrow;mac
+215;Shift+Option+Down Arrow;Mark as Unread and Move to Next;Shift+Option+Down Arrow;mac
+216;Shift+Option+N;New Subtask;Shift+Option+N;mac
+217;Command+Enter;Open Selected Task;Command+Enter;mac
+218;Option+Up Arrow;Go to Previous Unread Task;Option+Up Arrow;mac
+219;Option+Down Arrow;Go to Next Unread Task;Option+Down Arrow;mac

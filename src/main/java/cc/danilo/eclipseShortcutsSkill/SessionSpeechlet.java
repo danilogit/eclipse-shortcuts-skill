@@ -276,7 +276,9 @@ public class SessionSpeechlet implements SpeechletV2 {
 	
 	public SpeechletResponse getShortcutsNotFoundResponse(SpeechletRequestEnvelope<IntentRequest> request){
 		
-		String speechText = "Sorry, I could not find any shortcut for " + request.getRequest().getIntent().getSlot("query").getValue();
+		UserProfile userProfile = getProfileFromS3(request.getSession().getUser().getUserId());
+		
+		String speechText = "Sorry, I could not find any shortcut for your " + userProfile.getDefaultOS() + " operating system containing '" + request.getRequest().getIntent().getSlot("query").getValue() + "'";
 		
 		SimpleCard card = new SimpleCard();
 		card.setTitle("Oops!");
