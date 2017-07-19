@@ -1,0 +1,8 @@
+SearchShortcut search for {query}
+SearchShortcut to search for {query}
+SearchShortcut to search {query}
+SearchShortcut to look for {query}
+SetDefaultOS set os {osName}
+SetDefaultOS set operating system
+SetDefaultOS change default operating system
+SetDefaultOS {osName}

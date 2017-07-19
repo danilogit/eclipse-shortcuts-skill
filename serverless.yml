@@ -1,0 +1,46 @@
+service: eclipse-shortcuts-skill
+provider:
+  name: aws
+  runtime: java8
+  region: us-east-1
+  stage: prod
+  iamRoleStatements:
+  -  Effect: "Allow"
+     Action:
+       - "s3:ListBucket"
+     Resource:
+       Fn::Join:
+         - ""
+         - - "arn:aws:s3:::"
+           - Ref: S3EclipeShortcutsSkill
+  -  Effect: "Allow"
+     Action:
+       - "s3:PutObject"
+       - "s3:GetObject"
+     Resource:
+       Fn::Join:
+         - ""
+         - - "arn:aws:s3:::"
+           - Ref: S3EclipeShortcutsSkill
+           - "/*"
+  
+package:
+  artifact: target/eclipse-shortcuts-skill-1.0.jar
+  
+functions:
+  eclipse-shortcuts:
+    handler: cc.danilo.eclipseShortcutsSkill.Handler
+    events:
+      - alexaSkill
+    environment:
+      APPLICATION_ID: "Put your application ID here"
+      S3_BUCKET_NAME: ${self:service}-${self:provider.stage}-${self:provider.region}
+      
+resources:
+  Resources:
+    S3EclipeShortcutsSkill:
+      Type: AWS::S3::Bucket
+      Properties: 
+        BucketName: ${self:functions.eclipse-shortcuts.environment.S3_BUCKET_NAME}
+        
+        

@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "query",
+          "type": "STRING_TO_SEARCH"
+        }
+      ],
+      "intent": "SearchShortcut"
+    },
+    {
+      "slots": [
+        {
+          "name": "osName",
+          "type": "osName"
+        }
+      ],
+      "intent": "SetDefaultOS"
+    }
+  ]
+}
