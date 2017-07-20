@@ -243,7 +243,7 @@ public class SessionSpeechlet implements SpeechletV2 {
 		UserProfile userProfile = getProfileFromS3(request.getSession().getUser().getUserId());
 		
 		if(matchesCount > 1){
-			speechText += "<p>" + matchesCount + " shortcuts have been found for with your " + userProfile.getDefaultOS() + " operating system:</p>";	
+			speechText += "<p>" + matchesCount + " shortcuts have been found for your " + userProfile.getDefaultOS() + " operating system:</p>";	
 		} else {
 			speechText += "<p> Only one shortcut have been found for your " + userProfile.getDefaultOS() + " operating system:</p>";
 		}
